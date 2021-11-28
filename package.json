@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-typescript-starter",
+  "name": "nextjs-typescript-tailwind-starter",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,16 +9,17 @@
     "export": "next export"
   },
   "dependencies": {
-    "@emotion/core": "10.0.35",
-    "@emotion/css": "10.0.27",
-    "@emotion/styled": "10.0.27",
-    "next": "^10.0.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "autoprefixer": "^10.4.0",
+    "next": "^12.0.4",
+    "next-seo": "^4.28.1",
+    "postcss": "^8.4.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
-    "@types/node": "^14.14.16",
-    "@types/react": "^17.0.0",
-    "typescript": "^4.1.3"
+    "@types/node": "^16.11.10",
+    "@types/react": "^17.0.37",
+    "typescript": "^4.5.2"
   }
 }
